@@ -89,3 +89,45 @@ your name
 your projects
 buttons
 contact information
+==========================================================
+ Step 2
+ What is <header>?
+Think of it as a box.
+Everything that belongs to the top of your website will go inside this box.
+
+That's all you need to know today.
+<body>     
+      <header>
+
+    </header>
+
+</body>
+
+Now we will put one thing inside the <header>.
+
+Since your design has the profile photo first, we'll add the image.
+
+Inside <header>, type:
+
+<img src="assets/images/profile.jpg" alt="Profile photo">
+
+What does <img> do?
+
+It displays an image on your webpage.
+
+What does src mean?
+
+src stands for source.
+
+It tells the browser where the image is located.
+
+In your case:
+
+assets/images/profile.jpg
+
+means:
+
+go to the assets folder
+then open the images folder
+then load profile.jpg
+======================================================================================================

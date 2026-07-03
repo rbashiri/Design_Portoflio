@@ -19,3 +19,5 @@ alt → alternative text for accessibility.
 - <meta name="viewport"> → Makes the page responsive.
 - <title> → Text shown in the browser tab.
 - <link> → Connects the HTML page to a CSS stylesheet.
+
+Step2 adding information inside the header 
