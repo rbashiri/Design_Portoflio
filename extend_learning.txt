@@ -145,3 +145,33 @@ What is <div>?
 Think of a <div> as a box.
 
 Later, we'll use CSS to move this entire box wherever we want.
+What is class?
+
+A class is simply a name (or label) that you give to an HTML element so you can style it with CSS.
+
+Think of it like putting a name tag on an object.
+
+For example:
+
+<div class="hero-image">
+    <img src="images/profile.png">
+</div>
+
+Here,
+
+class="hero-image"
+
+means:
+
+"This <div> belongs to the class called hero-image."
+Then in CSS, you can style every element with that class.
+
+.hero-image{
+    width:35%;
+}
+
+Notice the dot (.) before the class name.
+
+The dot tells CSS:
+
+"Look for anything whose class is hero-image."
