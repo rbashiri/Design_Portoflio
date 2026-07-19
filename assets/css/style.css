@@ -286,7 +286,7 @@ html{
     object-fit:contain;
     flex-shrink:0;
     box-shadow:0 4px 10px rgba(0,0,0,.25);
-    animation:floatIcon 3s ease-in-out infinite;
+  
     margin-top:8px;
 }
 
@@ -532,6 +532,89 @@ html{
     background:#1649aa;
     transform:translateY(-3px);
     box-shadow:0 10px 24px rgba(31,95,216,.4);
+}
+
+/* ================= RESEARCH HIGHLIGHTS ================= */
+
+#highlights{
+    padding:30px 0;
+    background:#1c3154;
+}
+
+.highlights-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.highlight-item{
+    flex:1;
+    min-width:220px;
+    text-align:center;
+    
+}
+
+/* Square around icon */
+.highlight-item i{
+    width:65px;
+    height:65px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    margin:0 auto 25px;
+
+    border:2px solid #2ed573;
+    border-radius:8px;
+
+    color:#2ed573;
+    font-size:1.8rem;
+
+    transition:0.3s;
+}
+
+/* Hover effect */
+.highlight-item:hover i{
+    background:#2ed573;
+    color:#1c3154;
+}
+
+
+.highlight-item:last-child{
+    border-right:none;
+}
+
+.highlight-item i{
+    font-size:2.2rem;
+    color:#2ed573;
+
+    margin-bottom:20px;
+}
+
+.highlight-item h3{
+    font-size:3rem;
+    font-weight:700;
+
+    color:#ffffff;
+
+    margin-bottom:12px;
+}
+
+.highlight-item p{
+    color:#2ed573;
+    font-size:1rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    line-height:1.5;
+}
+
+.highlight-item:hover{
+    transform:translateY(-6px);
+    transition:.3s ease;
 }
 /*================= TECHNICAL SKILLS =================*/
 #skills{
